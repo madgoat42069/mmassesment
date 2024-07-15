@@ -1,6 +1,8 @@
-# Project
+# Rough Project
 
-Develop an elegant React.js Music Library Application. 
+Technologies used: React, Nodejs, vite, TailwindCSS, Express, mongoose etc.
+
+The project is based on the reading of a data.json file 
 
 
 ## System Requirements
@@ -41,7 +43,7 @@ To get started with development, you need to install few tools
 
 To set up a development environment, please follow these steps:
 
-1. Clone the repo
+1. Clone the repo or Download the .zip file linked to this repository and just drag and drop them into your editoor of choice
 
    ```shell
     git clone https://github.com/madgoat42069/mmassesment.git
@@ -91,37 +93,4 @@ To set up a development environment, please follow these steps:
      npm start
     ```
 
-##
 
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
-
-   ```bash
-    git pull origin main
-   ```
-
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
-
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
-
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
-
-3. To create a pull request, you must have changes committed to your new branch.
-
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
-
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
-
-6. Follow the template and fill in the proper information for the pull request.
-
-7. Click on the `Submit` button.
-
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
-
-#
