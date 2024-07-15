@@ -1,9 +1,13 @@
 # Rough Project
 
+kinda Frankenstien project ngl
+
 Technologies used: React, Nodejs, vite, TailwindCSS, Express, mongoose etc.
 
-The project is based on the reading of a data.json file 
+The project is based on the reading of a data.json file either automatic or manual. 
+I chose uploading it manually using mongoDB Compass.
 
+Music Player feature implemented but there are no tracks on the data.json file used.
 
 ## System Requirements
 
