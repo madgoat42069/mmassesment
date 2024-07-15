@@ -73,6 +73,24 @@ To set up a development environment, please follow these steps:
 
     Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+5. Open new terminal and use this
+
+    ```shell
+    cd mmassesment/server
+    ```
+
+6. Install the backend dependencies
+   
+    ```shell
+     npm install
+    ```
+
+7. Start the backend
+   
+    ```shell
+     npm start
+    ```
+
 
 
 1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
