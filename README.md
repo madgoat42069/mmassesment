@@ -94,3 +94,8 @@ To set up a development environment, please follow these steps:
     ```
 
 
+If there are any errors try creating a .env file inside the main project directory adding this   
+  
+    ```shell
+     SKIP_PREFLIGHT_CHECK=true
+    ```
