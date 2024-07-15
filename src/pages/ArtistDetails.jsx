@@ -5,7 +5,7 @@ import { Error, Loader } from '../components';
 import {
   useGetArtistDetailsQuery,
   useGetArtistTopSongsQuery,
-} from '../redux/Services/shazamcore';
+} from '../redux/Services/musiccoreapi';
 
 const ArtistDetails = () => {
   const { id: artistId } = useParams();

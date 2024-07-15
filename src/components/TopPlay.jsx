@@ -7,7 +7,7 @@ import { FreeMode } from 'swiper';
 //
 import PlayPause from './PlayPause';
 import { playPause, setActiveSong } from '../redux/features/playerSlice';
-import { useGetTopChartsQuery } from '../redux/Services/shazamcore';
+import { useGetTopChartsQuery } from '../redux/Services/musiccoreapi';
 import 'swiper/swiper-bundle.css';
 
 const TopChartCard = ({

@@ -6,7 +6,7 @@ import { setActiveSong, playPause } from '../redux/features/playerSlice';
 import {
   useGetSongDetailsQuery,
   useGetSongsRelatedQuery,
-} from '../redux/Services/shazamcore';
+} from '../redux/Services/musiccoreapi';
 
 const SongDetails = () => {
   const dispatch = useDispatch();

@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/self-closing-comp */
 import { SongCard, Loader, Error } from '../components';
-import { useGetSongsBySearchQuery } from '../redux/Services/shazamcore';
+import { useGetSongsBySearchQuery } from '../redux/Services/musiccoreapi';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 

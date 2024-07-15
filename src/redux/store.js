@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 
 import playerReducer from './features/playerSlice';
-import { musicApi } from './Services/shazamcore';
+import { musicApi } from './Services/musiccoreapi';
 
 export const store = configureStore({
   reducer: {
