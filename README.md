@@ -76,7 +76,7 @@ To set up a development environment, please follow these steps:
 5. Open new terminal and use this
 
     ```shell
-    cd mmassesment/server
+    cd server
     ```
 
 6. Install the backend dependencies
@@ -91,7 +91,7 @@ To set up a development environment, please follow these steps:
      npm start
     ```
 
-
+##
 
 1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
 
